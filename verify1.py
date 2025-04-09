@@ -112,7 +112,7 @@ def process_image(image_path, output_path, predicted_class, true_class, classes)
     # 添加文本背景框
     plt.text(10, 10, text, 
              color=text_color, 
-             fontsize=10,
+             fontsize=20,
              bbox=dict(facecolor='black', alpha=0.5))
 
     # 保存图像

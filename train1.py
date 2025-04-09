@@ -163,7 +163,7 @@ def train(model, dataLoaders, LossFunc, optimizer, scheduler, num_epoches):
 
 if __name__ == '__main__':
     # 各项参数设置
-    dataPath = r"D:\岩石种类识别\数据集2\train"
+    dataPath = r"D:\裂缝数据集\数据集2\train"
     batch_size = 32  # 增加batch_size
     num_epoches = 200
     # 数据准备阶段
